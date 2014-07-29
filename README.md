@@ -10,9 +10,11 @@ The class can be instantiated as follows:
 
 
 To initialize the location do the following:
+
     [mLC startListeningForLocationUpdates];
     
 
 To check latest location: 
+
     CLLocation *curr = [mLC getCurrentLocation];
     
